@@ -1,12 +1,40 @@
-the rainbow and unicorn
 
-violet
-indigo
-blue
-yellow
-orange
-red
-unicorn
+@startuml
+  participant "TestRTSPClient" as app
+  participant "BasicTaskScheduler" as schd
+  participant "BasicUsageEnvironment" as env
+  participant "RTSPClient" as rc
+  participant "GroupsockHelper" as sock
 
-these are the colours of the rainbow
-and unicorn.
+  activate app
+  note over app: main
+  app->schd: env.scheduler.doEventLoop()
+  activate schd
+  loop
+  schd->schd: SingleStep()
+  activate schd #CYAN
+  note over schd: select is used to find \nif the socket is readable
+  note over schd: handler function for \nreadable socket is called
+  schd->rc: incomingDataHandler()
+  activate rc
+  rc->sock: readSocket()
+  activate sock
+  note over sock: recvfrom is called here
+  sock->rc: return
+  deactivate sock
+  rc->rc: handlerResponseBytes()
+  activate rc #ORANGE
+  note over rc: parse the packet \nfor response code
+  note over rc: call handler function \nfor this response
+  rc->app: continueAfterDESCRIBE()
+  activate app #BLUE
+  note over app: carry next steps in RTSP \nlike setup and play
+  app->rc: return
+  deactivate app
+  rc->rc: return
+  deactivate rc
+  rc->schd: return
+  schd->schd: return
+  deactivate schd
+  end
+@end
