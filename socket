@@ -1,0 +1,17 @@
+#include <iostream>
+#include "BasicUsageEnvironment.hh"
+#include "GroupsockHelper.hh"
+#include "Groupsock.hh"
+
+int main(int argc, char** argv) {
+	  TaskScheduler* scheduler = BasicTaskScheduler::createNew();
+	  UsageEnvironment* env = BasicUsageEnvironment::createNew(*scheduler);
+  struct in_addr tempAddr;
+      tempAddr.s_addr = INADDR_ANY;
+
+  unsigned short portNum = 8080;
+  Groupsock* sock = new Groupsock(*env, tempAddr, portNum, 255);
+  u_int32_t const dummy = 0xFEEDABCE;
+  sock->output(*env, (unsigned char*)&dummy, sizeof dummy);
+  return 0;
+}
