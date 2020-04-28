@@ -1,0 +1,159 @@
+No.     Time           Source                Destination           Protocol Length Info
+     75 6.978469       43.90.23.35           43.88.103.63          RTSP     185    OPTIONS rtsp://43.88.103.63:8554/vod/test.aac RTSP/1.0
+
+Frame 75: 185 bytes on wire (1480 bits), 185 bytes captured (1480 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+Transmission Control Protocol, Src Port: 65467, Dst Port: 8554, Seq: 1, Ack: 1, Len: 131
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 6.978826       43.88.103.63          43.90.23.35           RTSP     176    Reply: RTSP/1.0 200 OK
+
+Frame 77: 176 bytes on wire (1408 bits), 176 bytes captured (1408 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+Transmission Control Protocol, Src Port: 8554, Dst Port: 65467, Seq: 1, Ack: 132, Len: 122
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 7.104983       43.90.23.35           43.88.103.63          RTSP     211    DESCRIBE rtsp://43.88.103.63:8554/vod/test.aac RTSP/1.0
+
+Frame 79: 211 bytes on wire (1688 bits), 211 bytes captured (1688 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+Transmission Control Protocol, Src Port: 65467, Dst Port: 8554, Seq: 132, Ack: 123, Len: 157
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 7.105210       43.88.103.63          43.90.23.35           RTSP/SDP 445    Reply: RTSP/1.0 200 OK
+
+Frame 81: 445 bytes on wire (3560 bits), 445 bytes captured (3560 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+Transmission Control Protocol, Src Port: 8554, Dst Port: 65467, Seq: 123, Ack: 289, Len: 391
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 7.228105       43.90.23.35           43.88.103.63          RTSP     236    SETUP rtsp://43.88.103.63:8554/vod/test.aac/ RTSP/1.0
+
+Frame 82: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+Transmission Control Protocol, Src Port: 65467, Dst Port: 8554, Seq: 289, Ack: 514, Len: 182
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 7.229002       43.88.103.63          43.90.23.35           RTSP     263    Reply: RTSP/1.0 200 OK
+
+Frame 84: 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+Transmission Control Protocol, Src Port: 8554, Dst Port: 65467, Seq: 514, Ack: 471, Len: 209
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 7.357648       43.90.23.35           43.88.103.63          RTSP     226    PLAY rtsp://43.88.103.63:8554/vod/test.aac RTSP/1.0
+
+Frame 106: 226 bytes on wire (1808 bits), 226 bytes captured (1808 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+Transmission Control Protocol, Src Port: 65467, Dst Port: 8554, Seq: 471, Ack: 723, Len: 172
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 7.357988       43.88.103.63          43.90.23.35           RTSP     258    Reply: RTSP/1.0 200 OK
+
+Frame 112: 258 bytes on wire (2064 bits), 258 bytes captured (2064 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+Transmission Control Protocol, Src Port: 8554, Dst Port: 65467, Seq: 723, Ack: 643, Len: 204
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    231 9.593638       43.90.23.35           43.88.103.63          RTCP     102    Receiver Report   Source description   
+
+Frame 231: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+User Datagram Protocol, Src Port: 49421, Dst Port: 44857
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    476 14.681090      43.88.103.63          43.90.23.35           RTCP     90     Sender Report   Source description   
+
+Frame 476: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+User Datagram Protocol, Src Port: 44857, Dst Port: 49421
+Real-time Transport Control Protocol (Sender Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    479 14.746490      43.90.23.35           43.88.103.63          RTCP     102    Receiver Report   Source description   
+
+Frame 479: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+User Datagram Protocol, Src Port: 49421, Dst Port: 44857
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    664 18.406808      43.90.23.35           43.88.103.63          RTCP     102    Receiver Report   Source description   
+
+Frame 664: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+User Datagram Protocol, Src Port: 49421, Dst Port: 44857
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    847 22.183208      43.88.103.63          43.90.23.35           RTCP     90     Sender Report   Source description   
+
+Frame 847: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+User Datagram Protocol, Src Port: 44857, Dst Port: 49421
+Real-time Transport Control Protocol (Sender Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    934 24.016977      43.90.23.35           43.88.103.63          RTCP     102    Receiver Report   Source description   
+
+Frame 934: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+User Datagram Protocol, Src Port: 49421, Dst Port: 44857
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    973 24.851806      43.90.23.35           43.88.103.63          RTSP     211    TEARDOWN rtsp://43.88.103.63:8554/vod/test.aac RTSP/1.0
+
+Frame 973: 211 bytes on wire (1688 bits), 211 bytes captured (1688 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+Transmission Control Protocol, Src Port: 65467, Dst Port: 8554, Seq: 643, Ack: 927, Len: 157
+Real Time Streaming Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    974 24.851847      43.90.23.35           43.88.103.63          RTCP     82     Receiver Report   Goodbye   
+
+Frame 974: 82 bytes on wire (656 bits), 82 bytes captured (656 bits)
+Ethernet II, Src: Cisco_a4:05:0d (58:f3:9c:a4:05:0d), Dst: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5)
+Internet Protocol Version 4, Src: 43.90.23.35, Dst: 43.88.103.63
+User Datagram Protocol, Src Port: 49421, Dst Port: 44857
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Goodbye)
+
+No.     Time           Source                Destination           Protocol Length Info
+    975 24.852179      43.88.103.63          43.90.23.35           RTSP     163    Reply: RTSP/1.0 200 OK
+
+Frame 975: 163 bytes on wire (1304 bits), 163 bytes captured (1304 bits)
+Ethernet II, Src: Sony_9f:bc:f5 (30:f9:ed:9f:bc:f5), Dst: Cisco_9f:f0:67 (00:00:0c:9f:f0:67)
+Internet Protocol Version 4, Src: 43.88.103.63, Dst: 43.90.23.35
+Transmission Control Protocol, Src Port: 8554, Dst Port: 65467, Seq: 927, Ack: 800, Len: 109
+Real Time Streaming Protocol
